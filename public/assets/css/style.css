@@ -1,0 +1,43 @@
+#submit-button{
+    margin: 1%;
+}
+
+textarea{
+    max-width: 400px;
+}
+
+img{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    font-family: 'Baloo', 'arial' ,cursive;
+}
+
+.jumbotron{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: orange;
+}
+
+.panel-heading{
+    width: 100%;
+    font-size: large;
+}
+
+.request{
+    font-size: large;
+}
+.gray{
+    color:gray;
+}
+.green{
+    color:green;
+}
+
+thead{
+    background-color: azure;
+}

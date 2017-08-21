@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Burger Time</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <img src="/assets/img/burger.jpg" alt="burger_image">
+            <h2>Eat-Da-Burger</h2>
+                <form action="/burger/add" method="post">
+                    <label for="new_burger" class="request">Enter a burger you want to eat and click the 'Submit Order' button:</label>
+                    <textarea class="form-control" columns="8" rows="2" id="new_burger" name="burger_name"></textarea>
+                    <button id="submit-button" type="submit" class="btn btn-primary">Submit Order</button>
+                </form>            
+        </div>
+            {{{ body }}}
+        <div class="well panel-footer text-center col-md-12"> &copy;Copyright 2017, Richard Fenix
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+<script src="assets/javascript/script.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "sequelize-burger",
+  "version": "1.0.0",
+  "description": "This is a burger logger with MySQL, Node, Express, Handlebars and ORM (yum!), following the MVC design pattern.  Node and MySQL to query and route data to the app, and Handlebars to generate HTML.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "moment": "^2.18.1",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "reload": "^2.2.1",
+    "sequelize": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfenix3/sequelizeBurger.git"
+  },
+  "author": "Richard Fenix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfenix3/sequelizeBurger/issues"
+  },
+  "homepage": "https://github.com/rfenix3/sequelizeBurger#readme"
+}
