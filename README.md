@@ -21,7 +21,7 @@ This is a burger logger with MySQL, Node, Express, Handlebars and Sequelize.
 * JAWSDB (heroku-based Database)
 
 ## Application Link
-* [Sequelized-Burger](https://rf-seqyuelized-burger.herokuapp.com/)
+* [Sequelized-Burger](https://rf-sequelized-burger.herokuapp.com/)
 
 ## Application Screen Shot
 * ![Sequelized-Burger](/public/assets/img/screenShot.jpg)
